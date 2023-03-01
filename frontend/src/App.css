@@ -1,0 +1,160 @@
+.App {
+  text-align: center;
+}
+
+.nav-ul{
+  padding: 5px;
+  margin: 0;
+  box-shadow: 5px 5px 50px grey;
+  text-align: left;
+}
+.nav-ul span{
+  color: red;
+  text-transform: capitalize;
+}
+
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav-ul li a{
+  color: #000;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.product_list,
+.universal,
+.login,
+.signItems{
+  margin-top: 80px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.invalid-input{
+  color: red;
+  font-size: 12px;
+}
+
+.inputBox{
+  padding: 7px;
+  display: block;
+  text-align: center;
+  width: 300px;
+  margin: 20px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #282c34;
+}
+
+.SearchBox{
+  width: 400px;
+  margin: 20px;
+  height: 30px;
+  text-align: center;
+  border: 2px solid #282c34;
+}
+
+.SearchBox::placeholder {
+  color: red;
+}
+
+.appButton{
+  margin: 20px;
+  width: 320px;
+  padding: 10px;
+  background-color: #282c34;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: black;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.nav-right{
+  text-align: right;
+}
+
+.logo{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  float: left;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.product_list ul li{
+  display: inline-block;
+  width: 150px;
+  border: 0.5px solid #a1a5ae ;
+  padding: 5px;
+}
+.product_list ul{
+  margin: 0;
+}
+
+.product-ul{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.productButton{
+  border: none;
+  font-size: 13px;
+  align-items: center;
+  color: white;
+  background: #282c34;
+  border-radius: 5px;
+}
+
+.productButton:hover{
+  background-color: red;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
